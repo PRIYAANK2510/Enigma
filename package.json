@@ -1,0 +1,37 @@
+{
+	"name": "enigma",
+	"displayName": "Enigma",
+	"description": "A mysterious theme.",
+	"version": "0.0.1",
+	"publisher": "Priyaank",
+	"icon": "assets/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PRIYAANK2510/Enigma"
+	},
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"keywords": [
+		"theme",
+		"enigma",
+		"Enigma",
+		"IrOny",
+		"irony",
+		"Priyaank",
+		"dark theme",
+		"dark"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Enigma",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Enigma-color-theme.json"
+			}
+		]
+	}
+}
